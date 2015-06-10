@@ -88,7 +88,7 @@ end
 
 
 def open_github(student, name)
-  system("open #{student.social[2]}")
+  system("open #{student.social["Github"]}")
 end
 
 
